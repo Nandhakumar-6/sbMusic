@@ -1,0 +1,326 @@
+/* -------------------------header------------- */
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+#parent_div{
+    /* border: 12px solid black; */
+    height: 70px;
+    line-height: 50px;
+    background-color: rgb(56, 54, 54) ;
+    text-align: center;
+    display: flex;
+    width: 1532p x;
+    position: sticky;
+    top:0vh;
+
+
+}
+#logopart{
+  justify-content: flex-start;
+ 
+ 
+}
+#heading1{
+    font-family: sans-serif;
+    color: white;
+   
+}
+#inputpart{
+    width: 190px;
+    height: 30px;
+    border-radius: 12px;
+    background-color: rgb(56, 54, 54) ;
+    color: white;
+    border:2px solid white;
+    font-family: cursive;
+    margin-top: 2.5vh;
+   
+
+    
+}
+#iconimg{
+    color: white;
+   font-size: 3vh;
+   position: absolute;
+   top:4.5vh;
+   left: 112vh;
+    
+}
+#idpart{
+ width: 120vh;
+ display: flex;
+   /* border:6px solid red; */
+justify-content: space-evenly; 
+ 
+}
+#log{
+    margin-top: 1.5vh;
+}
+#idpart{
+    margin-left: 50vh;
+}
+#last{
+    margin-right: 0px;
+    color: white;
+    font-size: 3vh;
+    margin-top: 4.5vh;
+}
+
+#Subscription{
+    color:white;
+    background-color: rgb(56, 54, 54) ;
+    margin-top: 1.5vh;
+  
+}
+
+
+/* -------------------header--------------------- */
+
+#header{
+    /* border:12px solid red; */
+   position: sticky;
+   top:9vh;
+  
+   
+}
+nav{
+    /* border:6px solid black; */
+   padding: 15px;
+   display: flex;
+   gap: 20px;
+   background-color: black;
+    
+}
+.anchorname{
+    color:white;
+    font-family: monospace;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.anchorname:hover{
+    border:4px solid white;
+   border-top: 1rem;
+  
+   border-left: 1rem;
+   border-right: 1rem;
+}
+
+
+/* -------------carousel-------------------- */
+
+
+#atstart{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(29, 20, 20); */
+    background-color: black;
+    /* border:12px solid wheat; */
+
+
+}
+.carousel{
+    /* border:12px solid red; */
+    /* position: relative; */
+  
+    width: 60%;
+    overflow: hidden;
+     /* background-color: rgb(129, 127, 127); */
+     background-color: black;
+     height: auto;
+
+}
+.images{
+    display: flex;
+    width: 100%;
+
+}
+.images img{
+    height:400px;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+.images input{
+    display: none;
+
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border:solid #fff 3px;
+   cursor: pointer;
+   transition: all 0.15s ease;
+   margin:5px;
+}
+.dots label:hover{
+    background-color: #fff;
+}
+#img1:checked ~ .m1{
+    margin-left: 0;
+}
+#img2:checked ~ .m2{
+    margin-left: -100%;
+}
+#img3:checked ~ .m3{
+    margin-left:-200%;
+}
+#img4:checked ~ .m4{
+    margin-left: -300%;
+}
+
+
+/* <!-- ------------------------------About------------------ --> */
+
+
+
+
+#aboutpart1{
+    border:2px solid white;
+    border-radius: 12px 12px 12px 12px;
+    background-color: black;
+    font-size:15px;
+
+}
+#aboutpara{
+    width: auto;
+   
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#start{
+    /* border:7px solid red; */
+    background-color: #0C0F12;
+    color:white;
+    width: auto;
+
+}
+#grid_container1{
+    /* border: 12px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 100px ;   */
+    width: auto;
+    background-color: #0C0F12;
+    color: aliceblue;
+    height: 50vh;
+    gap: 1.5px;
+}
+.grid_item{
+    border: 1px solid black;
+    text-align: center;
+    font-size: xx-large;
+    line-height: 50px;
+}
+
+.part1_img1:hover{
+    border-radius: 15px;
+    background: rgb(226, 226, 214);
+    opacity: 30%;
+    gap: 25px;
+}
+
+
+
+
+/* --------------------------footer---- */
+#main_footer{
+    /* bordeR:6px solid rgb(241, 16, 16); */
+   
+    height: 120vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:12px;
+   background-color: black;
+  }
+  #main_footer{
+    margin-top: 12px;
+  }
+.secpart{
+    width: 39vh;
+   height: auto;
+    /* border:12px solid red; */
+    padding: 12px;
+    
+}
+.headeing_h3{
+    color: white;
+}
+.anchorlink{
+    color:rgb(138, 133, 133);
+    text-decoration: none;
+    
+}
+.anchorlink:hover{
+    color:white;
+}
+#aboutuss{
+    /* border:4px solid rgb(241, 25, 25); */
+    background-color: black;
+    position: relative;
+    /* top:62px; */
+    height: 11vh;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.aboutcontent{
+    text-decoration: none;
+    color:white;
+}
+
+#blackpart{
+    color:white;
+    padding: 12px;
+}
+
+
+#atlast{
+    color:#fff;
+    background-color: black;
+    height:15vh;
+    border:3px solid rgb(160, 156, 156);
+    font-family:monospace;
+   
+}
+
+#align{
+    width: 50vh;
+     position: relative;
+    left:159.5vh;
+    bottom: 10vh;
+   color:white;
+   /* border:12px solid red; */
+}
+
+#align1{
+    padding: 12px;
+}
+
+
+
+
+
